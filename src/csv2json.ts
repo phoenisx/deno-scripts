@@ -3,6 +3,7 @@ import {
 } from "https://deno.land/std/fs/mod.ts";
 
 const filename = Deno.args[0];
+const outputFilename = Deno.args[1] || './out/temp.json';
 
 async function writeJson(path: string, data: object): Promise<string> {
   try {
@@ -39,8 +40,7 @@ async function writeJson(path: string, data: object): Promise<string> {
       }
     });
 
-    await writeJson("./out/temp.json", out);
-    // console.log(url, out);
+    await writeJson(outputFilename, out);
   } else {
     console.error("No Filename Provided");
   }
