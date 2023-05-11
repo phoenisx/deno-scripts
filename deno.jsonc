@@ -1,0 +1,17 @@
+// Ref: https://deno.com/manual@v1.30.2/getting_started/configuration_file
+{
+   "fmt": {
+      "files": {
+         "include": ["src/"],
+      },
+      "options": {
+         "useTabs": false,
+         "indentWidth": 3,
+         "singleQuote": false,
+         "proseWrap": "preserve"
+      }
+   },
+   "tasks": {
+      "degit": "deno run --allow-read --allow-net --allow-write --allow-run --allow-env ./src/degit/main.ts"
+   }
+}
