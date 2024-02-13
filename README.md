@@ -1,3 +1,7 @@
+> [!WARNING]  
+> This project has been replaced by my [deno-utils](https://github.com/phoenisx/deno-utils) project, as it was confusing to maintain 2 repos doing the same thing.
+> Archiving it for any future references, but eventually I'll delete this project, once all scripts from this repo are migrated to `deno-utils`.
+
 # deno-scripts
 
 _My Handy Deno Scripts/Simple single file projects to run anywhere when needed_
